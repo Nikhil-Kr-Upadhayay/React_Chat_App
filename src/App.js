@@ -19,7 +19,7 @@ function App() {
   };
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="React_Chat_App">
       <Routes>
         <Route
           index
